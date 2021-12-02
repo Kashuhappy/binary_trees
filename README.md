@@ -48,3 +48,21 @@ Write a function that inserts a node as the right-child of another node\
 &nbsp;&nbsp; . If ```parent``` already has a right-child, the new node must take its place, and the old right-child must be set as the right-child of the new node.
 
 ### 3. Delete
+Write a function that deletes an entire binary tree\
+&nbsp;&nbsp; . Prototype: void ```binary_tree_delete(binary_tree_t *tree);```\
+&nbsp;&nbsp; . Where ```tree``` is a pointer to the root node of the tree to delete\
+&nbsp;&nbsp; . If ```tree``` is ```NULL```, do nothing
+
+### 4. Is leaf
+Write a function that checks if a node is a leaf\
+&nbsp;&nbsp; . Prototype: int ```binary_tree_is_leaf(const binary_tree_t *node);```\
+&nbsp;&nbsp; . Where ```node``` is a pointer to the node to check\
+&nbsp;&nbsp; . Your function must return ```1``` if ```node``` is a leaf, otherwise ```0```\
+&nbsp;&nbsp; . If ```node``` is ```NULL```, return ```0```
+
+### 5. Is root
+Write a function that checks if a given node is a root\
+&nbsp;&nbsp; . Prototype: ```int binary_tree_is_root(const binary_tree_t *node);```\
+&nbsp;&nbsp; . Where ```node``` is a pointer to the node to check\
+&nbsp;&nbsp; . Your function must return ```1``` if ```node``` is a root, otherwise ```0```
+&nbsp;&nbsp; . If ```node``` is ```NULL```, return ```0```
